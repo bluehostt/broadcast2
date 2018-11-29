@@ -4,7 +4,7 @@ const client = new Discord.Client();
 var prefix = "$"
 
 client.on('ready', () => {
-    client.user.setActivity('broadcast', {type: 'WATCHING'});
+    client.user.setActivity('Urgent Games', {type: 'WATCHING'});
 });
 
 client.on('message', message => {
